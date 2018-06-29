@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <title>おすすめ登山診断</title>
+</head>
+<body>
+  <h1>おすすめ登山診断</h1>
+  <form action="result.html" method="get" id="diagnoseform">
+    <dl>
+      <dt>都道府県を選択してください</dt>
+      <dd>
+        <label>
+          <input type="checkbox" name="place" value="0">
+          <span>決めていない</span>
+        </label>
+        <label>
+          <input type="checkbox" name="place" value="1">
+          <span>東京都</span>
+        </label>
+        <label>
+          <input type="checkbox" name="place" value="2">
+          <span>神奈川県</span>
+        </label>
+        <label>
+          <input type="checkbox" name="place" value="3">
+          <span>千葉県</span>
+        </label>
+        <label>
+          <input type="checkbox" name="place" value="4">
+          <span>埼玉県</span>
+        </label>
+      </dd>
+      <dt>難易度を選択してください。</dt>
+      <dd>
+        <label>
+          <input type="radio" name="level" value="0">
+          <span>★</span>
+        </label>
+        <label>
+          <input type="radio" name="level" value="1">
+          <span>★★</span>
+        </label>
+        <label>
+          <input type="radio" name="level" value="2">
+          <span>★★★</span>
+        </label>
+        <label>
+          <input type="radio" name="level" value="3">
+          <span>★★★★</span>
+        </label>
+        <label>
+          <input type="radio" name="level" value="4">
+          <span>★★★★★</span>
+        </label>
+      </dd>
+      <dt>その他希望を選択してください。</dt>
+      <dd>
+        <label>
+          <input type="checkbox" name="option" value="0">
+          <span>特になし</span>
+        </label>
+        <label>
+          <input type="checkbox" name="option" value="1">
+          <span>温泉に入りたい。</span>
+        </label>
+        <label>
+          <input type="checkbox" name="option" value="2">
+          <span>子供と一緒に上りたい。</span>
+        </label>
+        <label>
+          <input type="checkbox" name="option" value="3">
+          <span>頂上に食堂がある。</span>
+        </label>
+        <label>
+          <input type="checkbox" name="option" value="4">
+          <span>電車で行ける。</span>
+        </label>
+      </dd>
+    </dl>
+
+    <input type="submit" value="結果を見る" id="btn_submit">
+
+  </form><!-- /sec eeform -->
+
+<script src="js/diagnose.js"></script>
+</body>
+</html>

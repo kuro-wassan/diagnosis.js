@@ -1,2 +1,3 @@
 # json_diagnosis.js
-JSONデータを使った簡易診断ツール
+JSONデータとJavasctriptを使った簡易診断ツール
+ピュアなjsで書いています。
